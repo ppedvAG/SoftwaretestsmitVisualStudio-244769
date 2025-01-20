@@ -8,3 +8,8 @@ Kurs Repository zu Softwaretests mit Visual Studio der ppedv AG.
 - [Trait]
 - Test Setup mit Konstruktor
 - Test Cleanup mit IDisposable
+
+## M002 TDDBank
+
+- BankAccount: Geld ein- und auszahlen
+- BankAccount: Exceptions in Fehlerfaellen werfen
