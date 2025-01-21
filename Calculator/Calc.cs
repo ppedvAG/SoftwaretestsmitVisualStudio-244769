@@ -15,5 +15,13 @@ namespace Calculator
                 return a + b;
             }
         }
+
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+
+            // Wenn jemand den Operator durch Dividieren ersetzt laueft unser Test 1/1/1 noch immer durch
+            // return a / b;
+        }
     }
 }

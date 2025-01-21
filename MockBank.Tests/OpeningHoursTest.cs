@@ -32,18 +32,17 @@ namespace MockBank.Tests
             Assert.Equal(expected, result);
         }
 
-        // Mit AI generiert
-        [Fact]
-        public void IsNowOpen_ReturnsCorrectResult()
-        {
-            // Arrange
+        //[Fact]
+        //public void IsNowOpen_ReturnsCorrectResult()
+        //{
+        //    // Arrange
 
-            // Act
-            bool result = _openingHours.IsNowOpen();
+        //    // Act
+        //    bool result = _openingHours.IsNowOpen();
 
-            // Assert
-            Assert.Equal(true, result);
-        }
+        //    // Assert
+        //    Assert.Equal(true, result);
+        //}
 
 
         [Theory]

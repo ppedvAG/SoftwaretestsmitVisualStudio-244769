@@ -4,6 +4,7 @@ namespace Calculator.xTest
 {
     public class CalcTests : IDisposable
     {
+        #region Setup & Teardown
 
         public CalcTests(ITestOutputHelper output)
         {
@@ -21,6 +22,10 @@ namespace Calculator.xTest
 
             // Bei MSTest waere es eine eigene Methode mit dem Attribut [TestCleanup]
         }
+
+        #endregion
+
+        #region Add Tests
 
         [Fact]
         [Trait("Category", "Unit")]
@@ -66,5 +71,7 @@ namespace Calculator.xTest
             Assert.Equal(expected, actual);
         }
 
+
+        #endregion
     }
 }
