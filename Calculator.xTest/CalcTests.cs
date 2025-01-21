@@ -1,9 +1,11 @@
+using Xunit.Abstractions;
+
 namespace Calculator.xTest
 {
     public class CalcTests : IDisposable
     {
 
-        public CalcTests()
+        public CalcTests(ITestOutputHelper output)
         {
             // Im Konstruktor koennen wir fuer jeden einzelnen Test Dinge vorbereiten
 

@@ -23,8 +23,8 @@ Kurs Repository zu Softwaretests mit Visual Studio der ppedv AG.
 
 ## M004 Code-Qualität
 
-- Coverage
-- Mutation
+- Code Coverage
+- Mutation Testing
 - Refactoring
 
 ## M005 DDD
