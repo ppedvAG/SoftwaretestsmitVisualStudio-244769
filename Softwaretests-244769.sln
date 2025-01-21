@@ -49,6 +49,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator", "TermCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator.Tests", "TermCalculator.Tests\TermCalculator.Tests.csproj", "{02F79096-F9A8-477D-83C4-34E67C9C7531}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_DemoApp", "M005_DemoApp", "{DC2C9540-DE01-464E-8996-1511A87B86FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.KuechenKompass.Model", "ppedv.KuechenKompass.Model\ppedv.KuechenKompass.Model.csproj", "{7603844E-2C53-42AE-9720-625A6623FDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.KuechenKompass.Data.EfCore", "ppedv.KuechenKompass.Data.EfCore\ppedv.KuechenKompass.Data.EfCore.csproj", "{783C7D8C-5391-48F9-AEBA-A21C17501C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.KuechenKompass.Data.EfCore.Tests", "ppedv.KuechenKompass.Data.EfCore.Tests\ppedv.KuechenKompass.Data.EfCore.Tests.csproj", "{F3699D24-2FA8-4406-88EF-9647D18D4A37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +123,18 @@ Global
 		{02F79096-F9A8-477D-83C4-34E67C9C7531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F79096-F9A8-477D-83C4-34E67C9C7531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F79096-F9A8-477D-83C4-34E67C9C7531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7603844E-2C53-42AE-9720-625A6623FDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7603844E-2C53-42AE-9720-625A6623FDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7603844E-2C53-42AE-9720-625A6623FDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7603844E-2C53-42AE-9720-625A6623FDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783C7D8C-5391-48F9-AEBA-A21C17501C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783C7D8C-5391-48F9-AEBA-A21C17501C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783C7D8C-5391-48F9-AEBA-A21C17501C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783C7D8C-5391-48F9-AEBA-A21C17501C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3699D24-2FA8-4406-88EF-9647D18D4A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3699D24-2FA8-4406-88EF-9647D18D4A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3699D24-2FA8-4406-88EF-9647D18D4A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3699D24-2FA8-4406-88EF-9647D18D4A37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,5 +159,8 @@ Global
 		{87799CC9-78D8-4D86-BF32-2BB999C1DD1E} = {88AD76D7-2840-4549-A43A-481C325DFA97}
 		{17A4C646-80DC-4E6F-A10F-816D0F77BBE1} = {87799CC9-78D8-4D86-BF32-2BB999C1DD1E}
 		{02F79096-F9A8-477D-83C4-34E67C9C7531} = {87799CC9-78D8-4D86-BF32-2BB999C1DD1E}
+		{7603844E-2C53-42AE-9720-625A6623FDFF} = {DC2C9540-DE01-464E-8996-1511A87B86FA}
+		{783C7D8C-5391-48F9-AEBA-A21C17501C94} = {DC2C9540-DE01-464E-8996-1511A87B86FA}
+		{F3699D24-2FA8-4406-88EF-9647D18D4A37} = {DC2C9540-DE01-464E-8996-1511A87B86FA}
 	EndGlobalSection
 EndGlobal

@@ -27,5 +27,11 @@ Kurs Repository zu Softwaretests mit Visual Studio der ppedv AG.
 - Mutation Testing
 - Refactoring
 
-## M005 DDD
+## M005 DDD Demo App
+
+- Domain Model für KüchenKompass entworfen
+- Klassen mit Le Chat von Mistral generieren lassen
+- EFCore installiert und Tests erstellt
+- Migration Script mit Tools generieren lassen
+- CRUD Tests fuer Rezepte
 
